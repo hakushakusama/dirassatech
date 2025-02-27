@@ -1,0 +1,27 @@
+<odoo>
+    <record id="view_teacher_form" model="ir.ui.view">
+        <field name="name">teacher.form</field>
+        <field name="model">education.teacher</field>
+        <field name="arch" type="xml">
+            <form string="Teacher">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="subject"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_teacher_tree" model="ir.ui.view">
+        <field name="name">teacher.tree</field>
+        <field name="model">education.teacher</field>
+        <field name="arch" type="xml">
+            <tree string="Teachers">
+                <field name="name"/>
+                <field name="subject"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

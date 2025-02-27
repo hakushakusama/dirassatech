@@ -1,0 +1,24 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Odoo specific files
+addons/
+odoo/addons/
+odoo/.vscode/
+odoo/.idea/
+odoo/.git/
+odoo/.DS_Store
+odoo/.pylintrc
+odoo/.pylint.d/
